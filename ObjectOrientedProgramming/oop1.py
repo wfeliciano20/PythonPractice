@@ -20,3 +20,4 @@ class Student:
 student_one = Student('Rolf Smith', [70, 88, 90, 99])
 student_two = Student('Jose', [50, 60, 99, 100])
 print(student_one.average())
+# video 59
