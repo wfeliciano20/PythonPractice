@@ -23,5 +23,11 @@ class Garage:
 
 ford = Garage()
 car = Car('Ford', 'Fiesta')
-ford.add_car(car)
+try:
+    ford.add_car(car)
+except TypeError:
+    print('The car you tried to add is not of type Car')
+finally:
+    print(f'The garage has now {len(ford)}')
+
 print(len(ford))
